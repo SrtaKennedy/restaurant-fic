@@ -1,0 +1,95 @@
+/* Geral */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Seções */
+section {
+    padding: 60px 0;
+}
+
+section#sobre {
+    text-align: center;
+}
+
+/* Cardápio */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+/* Botões de quantidade */
+.btn-outline-secondary {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Carrinho */
+#carrinho-itens {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Modal */
+.modal-body p {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsividade extra */
+@media (max-width: 768px) {
+    
+    .card-title {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+#carrinho-itens {
+    max-height: 200px;
+}
+
+}
+
+@media (min-width: 2560px) {
+
+.container {
+    max-width: 1600px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1.25rem;
+}
+
+}

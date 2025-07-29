@@ -1,4 +1,4 @@
-# 🍽️ Sabor & Arte - Site de Restaurante Responsivo
+# 🍽️ Sabor & Arte (ficticio)
 
 Este projeto é um site moderno e responsivo para um restaurante fictício chamado **Sabor & Arte**.  
 Criado com foco em aprendizado de HTML, CSS, JavaScript e Bootstrap.
